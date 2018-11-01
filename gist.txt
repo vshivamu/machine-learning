@@ -1,0 +1,33 @@
+AI
+1. Machine learning
+2. Artificial Neural network is ML but the machine learning happens in layers
+
+
+On basis of the nature of the learning “signal” or “feedback” available to a learning system ML problems are classified as
+
+1. Superwised learning - When set of data is already fed to the model with the appropriate answers.
+supervised learning is a learning in which we teach or train the machine using data which is well labeled that means some data is already tagged with correct answer
+1. Classification - when the output is category like green, blue
+2. Regression - when the output is discrete
+
+2. Unsuperwised learning-  Unsupervised learning is the training of machine using information that is neither classified nor labeled and allowing the algorithm to act on that information without guidance. Here the task of machine is to group unsorted information according to similarities, patterns and differences without any prior training of data.
+Unsupervised learning classified into two categories of algorithms:
+Types:
+Clustering: A clustering problem is where you want to discover the inherent groupings in the data, such as grouping customers by purchasing behavior.You ask the computer to separate similar data into clusters, this is essential in research and science.
+Association: An association rule learning problem is where you want to discover rules that describe large portions of your data, such as people that buy X also tend to buy Y.
+High Dimension Visualization: Use the computer to help us visualize high dimension data.
+Generative Models: After a model captures the probability distribution of your input data, it will be able to generate more data. This can be very useful to make your classifier more robust.
+
+3. Semisupervised learning
+
+4. Reinforcement learning: A computer program interacts with a dynamic environment in which it must perform a certain goal (such as driving a vehicle or playing a game against an opponent). The program is provided feedback in terms of rewards and punishments as it navigates its problem space.
+
+
+On the basis of “output” desired from a machine learned system
+
+Classification: Inputs are divided into two or more classes, and the learner must produce a model that assigns unseen inputs to one or more (multi-label classification) of these classes. This is typically tackled in a supervised way. Spam filtering is an example of classification, where the inputs are email (or other) messages and the classes are “spam” and “not spam”.
+Regression: It is also a supervised learning problem, but the outputs are continuous rather than discrete. For example, predicting the stock prices using historical data.
+Clustering: Here, a set of inputs is to be divided into groups. Unlike in classification, the groups are not known beforehand, making this typically an unsupervised task.
+As you can see in the example below, the given dataset points have been divided into groups identifiable by the colors red, green and blue.
+Density estimation: The task is to find the distribution of inputs in some space.
+Dimensionality reduction: It simplifies inputs by mapping them into a lower-dimensional space. Topic modeling is a related problem, where a program is given a list of human language documents and is tasked to find out which documents cover similar topics.
