@@ -1,0 +1,3 @@
+Outcome of the game - Num of home and away goals
+Potential of a player - potential
+Picking the best XI for a given match
